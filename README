@@ -1,0 +1,15 @@
+% Unscented Kalman Filter (UKF) applied to FitzHugh-Nagumo neuron dynamics.
+% Voltage observed, currents and inputs estimated.
+%
+% FitzHughNagumo() is the main program and calls the other programs.
+%
+% A detailed description is provided in
+% H.U. Voss, J. Timmer & J. Kurths, Nonlinear dynamical system identification from uncertain and indirect measurements, Int. J. Bifurcation and Chaos 14, 1905-1933 (2004).
+% I will be happy to email this paper on request. It contains a tutorial about the estimation of hidden states and unscented Kalman filtering.
+%
+% For commercial use and questions, please contact me at henningvoss@ieee.org.
+%
+% Written 15. 7. 2002
+% Updated 30. 8. 2016 (R2015b):
+% - Change of random number generator to ensure future compatibility
+% - Eliminiation of yellow warnings
